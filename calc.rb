@@ -10,18 +10,18 @@ puts "Что будем делать? (+ - * /)"
 x = gets.strip
 
 if x == "/" && b == 0
-	puts "На ноль делить нельзя"
-	exit
+  puts "На ноль делить нельзя"
+  exit
 end
 
 if x == "+"
-	y = a + b
+  y = a + b
 elsif x == "-"
-	y = a - b
+  y = a - b
 elsif x == "*"
-	y = a * b
+  y = a * b
 elsif x == "/"
-	y = a / b
+  y = a / b
 end
 
 puts "Результат: #{y}"
