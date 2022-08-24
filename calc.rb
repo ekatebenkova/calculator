@@ -17,7 +17,7 @@ end
 if x == "+"
 	y = a + b
 elsif x == "-"
-  y = a - b
+	y = a - b
 elsif x == "*"
 	y = a * b
 elsif x == "/"
